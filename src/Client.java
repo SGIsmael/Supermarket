@@ -29,6 +29,8 @@ public class Client {
     }
 
     public void showMeList(){
+
+        //TODO: transformalo en un foreach y te ahorras la función get y complejidad en el for
         for(int i = 0; i < productsList.size(); i++){
             System.out.println("Producto nº "+ i + " " + productsList.get(i).getDescription());
         }
